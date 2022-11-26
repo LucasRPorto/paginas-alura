@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(146, 192, 146);
+}
+
+h1{
+    text-align: center;
+    color: brown;
+}
+
+.nossaMissao{
+    font-size: 25px;
+}
+
+strong{
+    color: blue;
+}
+
