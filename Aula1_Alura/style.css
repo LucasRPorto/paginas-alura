@@ -1,7 +1,6 @@
 
 body{
     background-color: #CCCCCC;
-    text-align: center;
 }
 
 
@@ -12,10 +11,15 @@ body{
 h1{
     color: blueviolet;
     height: 50px;
+    text-align: center;
 }
 
-#fundo{
-    width: 100%;
+.paragrafos{
+    text-align: center;
+}
+
+.itens{
+    font-style: italic;
 }
 
 .nossaMissao{
@@ -26,4 +30,6 @@ strong{
     color: blue;
 }
 
-
+h2{
+    text-align: center;
+}
