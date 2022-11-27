@@ -1,17 +1,23 @@
-
 body{
     background-color: #CCCCCC;
 }
-
 
 #banner{
     width: 100%;
 }
 
-h1{
-    color: blueviolet;
-    height: 50px;
+.principal{
+    height: 250px;
+}
+
+.tituloPrincipal{
+    padding-left: 20px;
+}
+
+.tituloCentralizado{
+    height: 70px;
     text-align: center;
+    font-size: 25px;
 }
 
 .paragrafos{
@@ -30,6 +36,18 @@ strong{
     color: blue;
 }
 
-h2{
-    text-align: center;
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.itens{
+    height: 70px;
+    font-size: 25px;
+}
+
+.produtos{
+    width: 50%;
 }
