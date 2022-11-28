@@ -1,3 +1,7 @@
+
+/* Estilizando o HEADER*/
+
+
 header{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
@@ -44,7 +48,7 @@ nav a:hover {
 }
 
 
-
+/* Estilizando o MAIN*/
 
 
 .tituloP{
@@ -59,6 +63,7 @@ nav a:hover {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
+    height: 400px;
 }
 
 .produtos li{
@@ -83,11 +88,13 @@ nav a:hover {
 
 .produtos li:hover h2{
     font-size: 34px;
+    color: #c78c19;
 }
 
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
+    color: #000;
 }
 
 .imagemProduto{
@@ -96,13 +103,36 @@ nav a:hover {
 
 .descricaoProduto{
     font-size: 18px;
+    color: #000;
 }
 
 .precoProduto{
     font: 22px;
     font-weight: bold;
     margin: 10px 0 0;
+    color: #000;
 }
+
+.sobreLojinha{
+    height: 250px;
+}
+
+.sobreLojinha h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    height: 60px;
+}
+
+.paragrafoSobre{
+    font-size: 20px;
+    height: 40px;
+    text-align: center;
+}
+
+/* Estilizando o FOOTER*/
+
+
 
 footer{
     text-align: center;
@@ -113,6 +143,17 @@ footer{
 
 .logoFooter{
     height: 100px;
+}
+
+
+.paragrafoContato{
+    display: inline;
+    color: #FFFFFF;
+    margin: 0 15px 10px 10px;
+}
+
+.paragrafoContato:hover{
+    color: #c78c19;
 }
 
 .copyright{
