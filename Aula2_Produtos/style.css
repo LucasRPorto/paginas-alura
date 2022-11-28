@@ -147,6 +147,7 @@ footer{
 
 
 .paragrafoContato{
+    text-decoration: none;
     display: inline;
     color: #FFFFFF;
     margin: 0 15px 10px 10px;
