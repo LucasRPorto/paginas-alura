@@ -12,6 +12,7 @@ header{
     margin: 0 auto;
 }
 
+
 .logo{
     height: 200px;
 }
@@ -33,6 +34,17 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+
+
+
+.tituloP{
+    font-size: 40px;
+    text-align: center;
+    height: 40px;
+    font-weight: bold;
+    padding-top: 30px;
 }
 
 .produtos{
