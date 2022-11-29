@@ -6,7 +6,6 @@ header{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 
-
     padding: 20px 0;
     position: relative;
     border-radius: 8px;
@@ -40,6 +39,8 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    
+    transition: 0.15s all;
 }
 
 nav a:hover {
@@ -64,6 +65,7 @@ nav a:hover {
     margin: 0 auto;
     padding: 50px 0;
     height: 400px;
+    
 }
 
 .produtos li{
@@ -95,6 +97,7 @@ nav a:hover {
     font-size: 30px;
     font-weight: bold;
     color: #000;
+    transition: 0.15s all;
 }
 
 .imagemProduto{
@@ -151,6 +154,7 @@ footer{
     display: inline;
     color: #FFFFFF;
     margin: 0 15px 10px 10px;
+    transition: 0.15s all;
 }
 
 .paragrafoContato:hover{
@@ -208,3 +212,4 @@ form label, form legend {
     background: darkorange;
     transform: scale(1.1);
 }
+
