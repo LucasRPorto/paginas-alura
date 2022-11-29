@@ -183,4 +183,6 @@ form label, form p {
     margin: 0 0 20px;
     pad: 10px 25px;
     width: 50%;
+    border-radius: 7px;
+    height: 20px;
 }
