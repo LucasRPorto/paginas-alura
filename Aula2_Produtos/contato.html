@@ -16,7 +16,7 @@
         <header>
             <div class="caixa">
                 <h1>
-                    <img class="logo" src="logo.png">
+                    <img class="logo" src="logo.png" alt="Logo da Lojinha do Lucas">
                 </h1>
 
                 <nav>
@@ -33,37 +33,33 @@
 
             <form>
                 <label for="nomeCompleto">Nome Completo</label>
-                <input type="text" id="nomeCompleto" class="inputPadrao">
+                <input type="text" id="nomeCompleto" class="inputPadrao" required placeholder="Nome Completo">
 
                 <label for="email">E-mail</label>
-                <input type="text" id="email" class="inputPadrao">
+                <input type="email" id="email" class="inputPadrao" required placeholder="Seuemail@dominio.com">
 
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone" class="inputPadrao">
+                <input type="tel" id="telefone" class="inputPadrao" required placeholder="(xx) xxxxx-xxxx">
 
                 <label for="mensagem">Mensagem</label>
                 <textarea cols="70" rows="10" id="mensagem" class="inputPadrao"></textarea>
 
-                <div>
-                    <p>Como prefere o nosso contato?</p>
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
 
                     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
-                    
-
                     <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
-                    
-
                     <label for="radio-whats"><input type="radio" name="contato" value="whats" id="radio-whats">WhatsApp</label>
-                    
-                </div>
+                </fieldset>
 
-                <input type="submit" value="Enviar Formulário">
+
+                <input type="submit" value="Enviar Formulário" class="enviarFormulario">
             </form>
 
         </main>
 
         <footer>
-            <img class="logoFooter" src="logo.png">
+            <img class="logoFooter" src="logo.png" alt="Logo da Lojinha do Lucas">
 
             <div class="contatos">
                 <a href="https://www.instagram.com/lucass_rporto/"><p class="paragrafoContato"> Instagram</p></a>

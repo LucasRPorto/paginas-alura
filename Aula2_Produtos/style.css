@@ -172,7 +172,7 @@ form{
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -185,4 +185,26 @@ form label, form p {
     width: 50%;
     border-radius: 7px;
     height: 20px;
+}
+
+#mensagem{
+    height: 80px;
+}
+
+.enviarFormulario{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.7s all;            
+    cursor: pointer;                        
+}
+
+.enviarFormulario:hover{
+    background: darkorange;
+    transform: scale(1.1);
 }
