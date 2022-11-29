@@ -31,6 +31,35 @@
 
         <main>
 
+            <form>
+                <label for="nomeCompleto">Nome Completo</label>
+                <input type="text" id="nomeCompleto" class="inputPadrao">
+
+                <label for="email">E-mail</label>
+                <input type="text" id="email" class="inputPadrao">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" class="inputPadrao">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="inputPadrao"></textarea>
+
+                <div>
+                    <p>Como prefere o nosso contato?</p>
+
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                    
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    
+
+                    <label for="radio-whats"><input type="radio" name="contato" value="whats" id="radio-whats">WhatsApp</label>
+                    
+                </div>
+
+                <input type="submit" value="Enviar Formulário">
+            </form>
+
         </main>
 
         <footer>
