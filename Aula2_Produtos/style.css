@@ -53,17 +53,18 @@ nav a:hover {
 
 
 .tituloP{
+    height: 250px;
     font-size: 40px;
     text-align: center;
-    height: 40px;
-    font-weight: bold;
-    padding-top: 30px;
+    height: 60px;
+    margin: 70px 0 30px;
+    font-family: 'Rubik Distressed', cursive;
 }
 
 .produtos{
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 10px 0;
     height: 400px;
     
 }
@@ -131,6 +132,16 @@ nav a:hover {
     font-size: 20px;
     height: 40px;
     text-align: center;
+}
+
+.mapa iframe{
+    border: 20px;
+    border-radius: 20px;
+    transition: 0.7s all;
+}
+
+.mapa iframe:hover{
+    transform: scale(1.05);
 }
 
 /* Estilizando o FOOTER*/
