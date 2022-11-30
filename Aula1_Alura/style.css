@@ -49,29 +49,60 @@ nav a:hover {
 
 
 
+
+
+
 /*Estilizando o main*/
 
 
-.tituloCentralizado{
-    height: 250px;
-}
 
-.tituloCentralizado{
+.tituloPrincipal{
+    height: 250px;
     font-size: 40px;
-    font-weight: bold;
     text-align: center;
     height: 60px;
     margin: 30px ;
+    font-family: 'Rubik Distressed', cursive;
+
 }
+
+.imagemPrincipal{
+    width: 130px;
+    position: absolute;
+    margin: 0 20px 20px 0;
+    border-radius: 20px;
+}
+
 
 .paragrafos{
     font-size: 20px;
     height: 40px;
     text-align: center;
-    margin: 12px;
+    margin: 14px;
 }
 
+.beneficios h3{
+    margin: 50px 0 20px 0;
+}
 
+.produtos{
+    
+    width: 60%;
+    border-radius: 100px;
+    border-width: 0px;
+    border-color: #c78c19;
+    
+}
+
+.mapa iframe{
+    border: 20px;
+    border-radius: 20px;
+    transition: 0.7s all;
+}
+
+.mapa iframe:hover{
+    transform: scale(1.1);
+}
 
 
 
@@ -79,37 +110,37 @@ nav a:hover {
 
 /*Estilizando o footer*/
 
-footer{
-    text-align: center;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    padding: 40px 0;
-}
+    footer{
+        text-align: center;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        padding: 40px 0;
+    }
 
-.logoFooter{
-    height: 100px;
-}
+    .logoFooter{
+        height: 100px;
+    }
 
 
-.paragrafoContato{
-    text-decoration: none;
-    display: inline;
-    color: #FFFFFF;
-    margin: 0 15px 10px 10px;
-    transition: 0.15s all;
-}
+    .paragrafoContato{
+        text-decoration: none;
+        display: inline;
+        color: #FFFFFF;
+        margin: 0 15px 10px 10px;
+        transition: 0.15s all;
+    }
 
-.paragrafoContato:hover{
-    color: #c78c19;
-}
+    .paragrafoContato:hover{
+        color: #c78c19;
+    }
 
-.copyright{
-    color: aliceblue;
-    font-size: 13px;
-    margin: 20px;
-}
+    .copyright{
+        color: aliceblue;
+        font-size: 13px;
+        margin: 20px;
+    }
 
-main{
-    width: 940px;
-    margin: 0 auto;
-}
+    main{
+        width: 940px;
+        margin: 0 auto;
+    }
