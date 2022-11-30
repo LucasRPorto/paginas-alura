@@ -63,7 +63,6 @@ nav a:hover {
     height: 60px;
     margin: 70px 0 30px;
     font-family: 'Rubik Distressed', cursive;
-
 }
 
 
@@ -113,6 +112,13 @@ nav a:hover {
 .imagemBeneficios{
     width: 60%;
     border-radius: 1000px;
+    transition: 0.7s all;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.imagemBeneficios:hover{
+    opacity: 0.3;
+    transform: scale(1.02);
 }
 
 
