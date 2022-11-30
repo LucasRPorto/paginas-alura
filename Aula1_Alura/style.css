@@ -73,25 +73,11 @@ nav a:hover {
     border-radius: 20px;
 }
 
-
 .paragrafos{
     font-size: 20px;
     height: 40px;
     text-align: center;
     margin: 14px;
-}
-
-.beneficios h3{
-    margin: 50px 0 20px 0;
-}
-
-.produtos{
-    
-    width: 60%;
-    border-radius: 100px;
-    border-width: 0px;
-    border-color: #c78c19;
-    
 }
 
 .mapa iframe{
@@ -101,7 +87,41 @@ nav a:hover {
 }
 
 .mapa iframe:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
+}
+
+.beneficios h3{
+    margin: 50px 0 20px 0;
+}
+
+.conteudoBeneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.listaBeneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens{
+    font-size: 20px;
+    line-height: 2;
+}
+
+.imagemBeneficios{
+    width: 60%;
+    border-radius: 1000px;
+}
+
+
+
+.video{
+    margin: 3em auto;
+    width: 560px;
+    height: 315px;
+    transition: 0.7s all;
 }
 
 
