@@ -1,6 +1,7 @@
 /* Estilizando o HEADER*/
 
 
+
 header{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
@@ -165,4 +166,36 @@ nav a:hover {
     main{
         width: 940px;
         margin: 0 auto;
+    }
+
+    @media screen and (max-width:480px){
+        .caixa, .beneficios, .principal, .mapa, .video, .conteudoBeneficios, main, .video iframe{
+            width: auto;
+        }
+
+        nav{
+            text-align: center;
+            position: static;
+        }
+        nav li{
+            font-size: 2px;
+            margin: 0 1px 0 1px;
+        }
+
+        .logo{
+            vertical-align: top;
+            height: 150px;
+        }
+
+        .mapa iframe{
+            width: 300px;
+            height: 220px;
+        }
+
+        .listaBeneficios, .conteudoBeneficios{
+            width: 100%;
+        }
+        .itens{
+            margin: 0 auto;
+        }
     }

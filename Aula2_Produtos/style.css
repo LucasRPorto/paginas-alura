@@ -12,7 +12,7 @@ header{
 
 .caixa{
     position: relative;
-    width: 940px;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -49,6 +49,7 @@ nav a:hover {
 
 
 /* Estilizando o MAIN*/
+
 
 .tituloP{
     height: 250px;
@@ -223,4 +224,31 @@ form label, form legend {
     transform: scale(1.1);
 }
 
-/*Testando SourceTree*/
+@media screen and (max-width:480px){
+    main, .caixa, .produtos{
+        width: auto;
+        height: auto;
+    }
+
+    .produtos li{
+        width: 80%;
+        margin: 0 auto 15px auto;
+        text-align: center;
+    }
+    nav{
+        text-align: center;
+        position: static;
+    }
+    nav li{
+        font-size: 2px;
+        margin: 0 1px 0 1px;
+    }
+
+    .logo{
+        height: 150px;
+    }
+
+    .enviarFormulario{
+        width: 60%;
+    }
+}
