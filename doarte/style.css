@@ -1,0 +1,45 @@
+header{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(151,233,148,1) 100%);
+
+    padding: 20px 0;
+    position: relative;
+    border-radius: 8px;
+}
+
+ul {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.logo{
+    height: 50px;
+}
+
+nav{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+    transition: 0.15s all;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
