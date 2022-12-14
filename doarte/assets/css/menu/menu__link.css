@@ -1,4 +1,4 @@
-.menuLink{
+.menu__link{
     margin-right: 1.25em;
     text-decoration: none;
     text-transform: uppercase;
@@ -7,7 +7,7 @@
     transition: 0.15s all;
 }
 
-.menuLink:hover{
+.menu__link:hover{
     color: blue;
     text-decoration: underline;
 }
