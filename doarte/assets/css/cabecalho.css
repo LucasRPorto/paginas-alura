@@ -1,0 +1,11 @@
+.cabecalho{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(151,233,148,1) 100%);
+
+    padding: 8px 0;
+    position: relative;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
