@@ -1,0 +1,5 @@
+.kits{
+    display: flex;   /*arquivos um do lado do outro */
+    flex-wrap: wrap; /* Quebra os elementos de linha em linha */
+    padding: 5rem 0 0 5rem;
+}
