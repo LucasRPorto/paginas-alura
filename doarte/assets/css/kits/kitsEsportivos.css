@@ -1,5 +1,8 @@
 .kits__esportivos{
 
+    background: rgb(155,231,255);
+    background: linear-gradient(166deg, rgba(155,231,255,1) 0%, rgba(255,255,255,1) 83%);
+
     flex-wrap: wrap; /* Quebra os elementos de linha em linha */
     text-align: center;
     width: 300px;

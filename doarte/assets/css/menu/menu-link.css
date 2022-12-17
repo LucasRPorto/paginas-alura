@@ -10,4 +10,5 @@
 .menu__link:hover{
     color: blue;
     text-decoration: underline;
+    font-weight: bolder;
 }
