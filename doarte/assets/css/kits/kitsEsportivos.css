@@ -11,9 +11,9 @@
     border: 2px solid #000;
     border-radius: 10px;
     transition: 0.3s all;
-
+    margin-bottom: 5rem; /*Espaçamento entre as receitas, verticalmente */
 }
 
-.kits__esportivos :hover{
-    border-color: aqua;
+.kits__esportivos:hover{
+    border-color: blue;
 }
