@@ -47,12 +47,17 @@ h1 {
   font-weight: bold;
   text-align: center;
   width: 120px;
+  transition: 0.15s;
 }
 
 .tecla.focus,
 .tecla:focus {
   outline: none;
   box-shadow: 1px 1px 10px var(--luz);
+}
+
+.tecla:active{
+  font-size: 1.3em;
 }
 
 .tecla.active:focus,
