@@ -9,10 +9,8 @@
 body {
   align-items: center;
   
-  /*background: rgb(2,0,36);
-  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,44,0.5494572829131652) 6%, rgba(5,48,56,0.8575805322128851) 100%);*/
-
-  
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,44,0.5494572829131652) 6%, rgba(5,48,56,0.8575805322128851) 100%);
 
   display: flex;
   justify-content: center;
@@ -24,7 +22,8 @@ body {
 h1 {
   color: var(--branca);
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .teclado {
@@ -49,8 +48,6 @@ h1 {
   text-align: center;
   width: 120px;
 }
-
-
 
 .tecla.focus,
 .tecla:focus {
