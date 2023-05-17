@@ -67,6 +67,12 @@ body {
   outline: 0 !important;
 }
 
+#descricaoPagina {
+  color: #007bff;
+  padding: 15px;
+  text-align: center;
+}
+
 hr {
   box-sizing: content-box;
   height: 0;
