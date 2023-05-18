@@ -46,6 +46,9 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  height: 100%;
+  background: rgb(212,211,236);
+  background: linear-gradient(166deg, rgba(212,211,236,1) 0%, rgba(24,29,74,0.8575805322128851) 70%);
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -60,17 +63,29 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
 
-#descricaoPagina {
-  color: #007bff;
-  padding: 15px;
-  text-align: center;
+
+#formulario{
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 25px;
+  max-width: 70%;
+  align-items: center;
+  margin-left: 15%;
+}
+
+.div-button{
+  padding-top: 10px;
+}
+
+#button-incluir{
+  width: 25%;
+  margin-left: 37.5%;
 }
 
 hr {
@@ -2048,17 +2063,17 @@ pre code {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #6c757d;
+  color: #9fa4a8;
   opacity: 1;
 }
 
 .form-control::-moz-placeholder {
-  color: #6c757d;
+  color: #9fa4a8;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #6c757d;
+  color: #9fa4a8;
   opacity: 1;
 }
 
@@ -2068,7 +2083,7 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: #9fa4a8;
   opacity: 1;
 }
 
@@ -10024,6 +10039,7 @@ button.bg-dark:focus {
 
 .text-center {
   text-align: center !important;
+  padding: 30px;
 }
 
 @media (min-width: 576px) {
