@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Negociações</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+    <script>
+        $(function(){
+            $("#button-incluir").click(function(){
+                toastr.options = {
+                    "timeout": "2000",
+                    "positionClass": "toast-top-right",
+                    "progressBar": true
+                };
+                toastr.success("Informações Salvas");
+            });
+        });
+    </script>
 </head>
 
 <body class="container">
